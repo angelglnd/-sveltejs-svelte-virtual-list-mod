@@ -28,7 +28,7 @@
     "tap-dot": "^2.0.0",
     "tape-modern": "^1.1.1"
   },
-  "repository": "git+https://github.com/angelglnd/sveltejs-svelte-virtual-list-mod.git",
+  "repository": "git+https://github.com/angelglnd/svelte-virtual-list-mod.git",
   "author": "Rich Harris",
   "license": "LIL",
   "keywords": [
