@@ -1,3 +1,10 @@
+<script context="module">
+     // new funtion to force refresh
+     let refreshAction;
+     export function notifyRefresh() {
+          refreshAction();
+     }
+</script>
 <script>
 	import { onMount, tick } from 'svelte';
 
@@ -126,7 +133,7 @@
 		// rows would occupy we may need to add some
 		// more. maybe we can just call handle_scroll again?
 	}
-
+        refreshAction = () => refresh(items, viewport_height, itemHeight);
 	// trigger initial refresh
 	onMount(() => {
 		rows = contents.getElementsByTagName('svelte-virtual-list-row');
