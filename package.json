@@ -1,5 +1,5 @@
 {
-  "name": "@sveltejs/svelte-virtual-list",
+  "name": "@sveltejs/svelte-virtual-list-mod",
   "version": "3.0.1",
   "description": "A <VirtualList> component for Svelte apps",
   "main": "VirtualList.svelte",
