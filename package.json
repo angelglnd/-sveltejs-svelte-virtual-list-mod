@@ -1,5 +1,5 @@
 {
-  "name": "@sveltejs/svelte-virtual-list-mod",
+  "name": "sveltejs/svelte-virtual-list-mod",
   "version": "3.0.1",
   "description": "A <VirtualList> component for Svelte apps",
   "main": "VirtualList.svelte",
@@ -28,7 +28,7 @@
     "tap-dot": "^2.0.0",
     "tape-modern": "^1.1.1"
   },
-  "repository": "https://github.com/angelglnd/-sveltejs-svelte-virtual-list-mod",
+  "repository": "https://github.com/angelglnd/sveltejs-svelte-virtual-list-mod",
   "author": "Rich Harris",
   "license": "LIL",
   "keywords": [
