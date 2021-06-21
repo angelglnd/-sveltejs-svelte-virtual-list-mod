@@ -1,7 +1,7 @@
 # svelte-virtual-list ([demo](https://svelte.dev/repl/f78ddd84a1a540a9a40512df39ef751b))
 
 A virtual list component for Svelte apps. Instead of rendering all your data, `<VirtualList>` just renders the bits that are visible, keeping your page nice and light.
-
+small modification to be able to force a refresh items.
 ## Installation
 
 ```bash
